@@ -20,9 +20,9 @@ public:
       : Product(code, name, cost), quantity(quantity),
         supplier(supplier_name, company) {}
 
-  // void setQuantity(int);
+  void setQuantity(int);
 
-  // int getQuantity();
+  int getQuantity();
 
   void setProductInfo(string, string);
 

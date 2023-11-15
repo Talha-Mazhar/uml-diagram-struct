@@ -1,5 +1,9 @@
 #include "../include/InventoryProduct.h"
 
+void InventoryProduct::setQuantity(int quantity) { this->quantity = quantity; };
+
+int InventoryProduct::getQuantity() { return quantity; };
+
 void InventoryProduct::setProductInfo(string name, string company) {
   setName(name);
   supplier.setCompany(company);
