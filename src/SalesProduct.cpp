@@ -1,7 +1,7 @@
 #include "../include/SalesProduct.h"
 
 void SalesProduct::setSalePrice(float salePrice) {
-  salePrice = getPrice() * (21 / 100);
+  this->salePrice = getPrice() * 0.21;
 };
 
 float SalesProduct::getSalePrice() { return salePrice; };

@@ -1,8 +1,8 @@
 #include "../include/Supplier.h"
 
-void Supplier::setName(string name) { name = name; };
+void Supplier::setName(string name) { this->name = name; };
 
-void Supplier::setCompany(string company) { company = company; };
+void Supplier::setCompany(string company) { this->company = company; };
 
 string Supplier::getName() { return name; };
 
