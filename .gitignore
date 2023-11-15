@@ -1,0 +1,91 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+*.out
+*.dll
+
+# Executables
+*.exe
+*.app
+*.appx
+*.com
+*.cmd
+*.jar
+*.msi
+*.wsf
+
+# Compiled Dynamic libraries (e.g., DLL, SO, DYLIB)
+*.dll
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeSettings.json
+
+# VS Code configurations
+.vscode/
+
+# Xcode
+*.xcworkspace
+*.xcuserdatad
+*.xcodeproj/
+
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Eclipse
+.settings/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Makefile
+Makefile
+/make/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Dependency Directories
+/bin/
+/lib/
+/build/
+
+# IDE files
+*.db
+*.user
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.suo
+*.sln.docstates
+
+# Custom file extensions (e.g., vim swap files)
+*.swp
+*.swo
+*.swn
+
+# Visual Studio Code directory
+.vscode/
